@@ -80,47 +80,115 @@ nav {
 /* Banner Section starts here */
 
 /* Meet the Speakers section starts here */
-.speakers{
+.speakers {
     padding: 3rem;
-} 
+}
 
-.speakers h2{
+.speakers h2 {
     text-align: center;
 }
 
-.container{
+.container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-   margin-top: 50px;
+    margin-top: 50px;
 }
 
-.container div{
+.container div {
     display: flex;
     flex-direction: column;
     margin: 10px;
     border: 1px solid gray;
-    border-radius:20px ;
+    border-radius: 20px;
     object-fit: cover;
     padding-bottom: 10px;
 }
 
-.container div img{
-    border-top-left-radius:20px ;
+.container div img {
+    border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.container div small{
+.container div small {
     color: #1D4ED8;
     margin: 3px 0px 5px 10px;
 }
 
-.container div p{
+.container div p {
     margin: 3px 0px 5px 10px;
 }
 
-.name{
+.name {
     font-weight: 600;
 }
 
 /* Meet the Speakers section ends here */
+
+/* Pricing section starts here */
+.pricing-title {
+    text-align: center;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 70vh;
+}
+
+.pricing-box {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    padding: 15px 25px;
+    margin-top: 50px;
+}
+
+.pricing-box hr {
+    margin: 10px 5px 10px 5px;
+}
+
+.pricing-box ul li {
+    letter-spacing: -1px;
+    font-size: 12px;
+}
+
+.pricing-box button {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.black-box {
+    background-color: rgb(28, 32, 52);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    padding: 15px 25px;
+    margin-top: 50px;
+}
+
+.black-box hr {
+    margin: 10px 5px 10px 5px;
+}
+
+.black-box ul li {
+    letter-spacing: -1px;
+    font-size: 12px;
+}
+
+.black-box button {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #1D4ED8;
+    border-radius: 5px;
+}
+
+/* Pricing section ends here */
