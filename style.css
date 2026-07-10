@@ -192,3 +192,107 @@ nav {
 }
 
 /* Pricing section ends here */
+
+/* FAQ section starts here */
+
+
+.faq-section{
+    padding:80px 10%;
+    background:#f8f9fc;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+.faq-section h2{
+    font-size:2.5rem;
+    text-align:center;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.faq-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.faq-item{
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    overflow:hidden;
+    transition:.3s;
+}
+
+.faq-item:hover{
+    transform:translateY(-3px);
+}
+
+.faq-item summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 28px;
+    font-size:18px;
+    font-weight:600;
+    color:#222;
+    position:relative;
+}
+
+.faq-item summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-item summary::after{
+    content:"+";
+    position:absolute;
+    right:28px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:26px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.faq-item[open] summary::after{
+    content:"−";
+}
+
+.faq-item p{
+    padding:0 28px 22px;
+    color:#666;
+    line-height:1.8;
+    font-size:16px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .faq-section{
+        padding:60px 20px;
+    }
+
+    .faq-section h2{
+        font-size:2rem;
+    }
+
+    .faq-item summary{
+        font-size:17px;
+        padding:20px;
+    }
+
+    .faq-item p{
+        padding:0 20px 20px;
+    }
+
+}
+/* FAQ section ends here */
