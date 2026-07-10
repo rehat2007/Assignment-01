@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer conference</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Googole font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +38,8 @@
             <button>Register Now</button>
         </div>
     </nav>
-    <!-- Mavbar ends here -->
+    <!-- Navbar ends here -->
+
     <!-- Banner Section starts here-->
     <section class="banner">
         <div class="main-text">
@@ -47,6 +52,7 @@
         </div>
     </section>
     <!-- Banner Section endss here-->
+
     <!-- Meet the Speakers section starts here -->
     <section class="speakers">
         <h2>Meet the Speakers</h2>
@@ -84,7 +90,7 @@
         <h2 class="pricing-title">Secure Your Spot</h2>
         <p class="pricing-title">Early-bird pricing ends August 15, 2026.</p>
         <div class="pricing-container">
-            <div class="pricing-box">
+            <div class="left-box box">
                 <p>Standard</p>
                 <h2>$399</h2>
                 <p>per person</p>
@@ -99,7 +105,7 @@
                 </ul>
                 <button>Get Standard</button>
             </div>
-            <div class=" black-box">
+            <div class=" black-box box">
                 <p>Pro</p>
                 <h2>$749</h2>
                 <p>per person</p>
@@ -114,7 +120,7 @@
                 </ul>
                 <button>Get Pro</button>
             </div>
-            <div class="pricing-box">
+            <div class="right-box box">
                 <p>Team</p>
                 <h2>$5,999</h2>
                 <p>up to 10 people</p>
@@ -132,88 +138,104 @@
         </div>
     </section>
     <!-- Pricing section starts here -->
-     
-     <!-- FAQ section starts here -->
-     <section class="faq-section">
-    <div class="container">
-        <h2>Frequently Asked Questions</h2>
-        <p class="subtitle">
-            Find answers to the most common questions about our services.
-        </p>
 
+    <!-- FAQ section starts here -->
+    <section class="faq-section">
         <div class="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="subtitle">
+                Find answers to the most common questions about our services.
+            </p>
 
-            <details class="faq-item" open>
-                <summary>What services do you provide?</summary>
-                <p>
-                    We provide modern web development services including
-                    responsive websites, UI/UX design, and custom web
-                    applications.
-                </p>
-            </details>
+            <div class="faq-container">
 
-            <details class="faq-item">
-                <summary>How long does it take to complete a project?</summary>
-                <p>
-                    The timeline depends on the project size. Small websites
-                    usually take 1–2 weeks, while larger applications may take
-                    several months.
-                </p>
-            </details>
+                <details class="faq-item" open>
+                    <summary>What is the Developer Conference about?</summary>
+                    <p>
+                        The Developer Conference is a technology event where developers, designers, and tech enthusiasts
+                        gather to learn about the latest trends, tools, and best practices in software development.
+                    </p>
+                </details>
 
-            <details class="faq-item">
-                <summary>Do you create responsive websites?</summary>
-                <p>
-                    Yes. Every website is fully responsive and optimized for
-                    desktops, tablets, and mobile devices.
-                </p>
-            </details>
+                <details class="faq-item">
+                    <summary>How can I register for the conference?</summary>
+                    <p>
+                        You can register online through the conference website by selecting your ticket type and
+                        completing the registration process. A confirmation email will be sent after successful
+                        registration.
+                    </p>
+                </details>
 
-            <details class="faq-item">
-                <summary>Can you redesign my existing website?</summary>
-                <p>
-                    Absolutely! We can redesign your current website with a
-                    modern layout, better performance, and improved user
-                    experience.
-                </p>
-            </details>
+                <details class="faq-item">
+                    <summary>Who can attend the conference?</summary>
+                    <p>
+                        The conference is open to everyone, including students, beginners, experienced developers,
+                        software engineers, entrepreneurs, and anyone passionate about technology.
+                    </p>
+                </details>
 
-            <details class="faq-item">
-                <summary>Do you provide website maintenance?</summary>
-                <p>
-                    Yes. We offer regular updates, security improvements,
-                    backups, and bug fixes after project delivery.
-                </p>
-            </details>
+                <details class="faq-item">
+                    <summary>Will there be hands-on workshops?</summary>
+                    <p>
+                        Yes. In addition to keynote speeches and technical talks, attendees can participate in
+                        interactive workshops led by industry experts and experienced developers.
+                    </p>
+                </details>
 
-            <details class="faq-item">
-                <summary>Which technologies do you use?</summary>
-                <p>
-                    We use HTML, CSS, JavaScript, React, Node.js, Express,
-                    MongoDB, and other modern web technologies.
-                </p>
-            </details>
+                <details class="faq-item">
+                    <summary>What topics will be covered during the event?</summary>
+                    <p>
+                        The conference features sessions on Web Development, Artificial Intelligence, Cloud Computing,
+                        Cybersecurity, DevOps, Mobile App Development, UI/UX Design, and Open Source technologies.
+                    </p>
+                </details>
 
-            <details class="faq-item">
-                <summary>How can I request a quotation?</summary>
-                <p>
-                    Simply contact us through our contact form or email us with
-                    your project details, and we'll send you a free quotation.
-                </p>
-            </details>
+                <details class="faq-item">
+                    <summary>Can I network with other attendees and speakers?</summary>
+                    <p>
+                        Absolutely. The conference includes networking sessions, panel discussions, community meetups,
+                        and social events where you can connect with professionals, recruiters, and fellow developers.
+                    </p>
+                </details>
 
-            <details class="faq-item">
-                <summary>Do you offer ongoing support?</summary>
-                <p>
-                    Yes. We provide technical support and maintenance packages
-                    even after your website has been launched.
-                </p>
-            </details>
+                <details class="faq-item">
+                    <summary>Will I receive a certificate of attendance?</summary>
+                    <p>
+                        Yes. All registered attendees who participate in the conference will receive a digital
+                        certificate of attendance after the event concludes.
+                    </p>
+                </details>
 
+                <details class="faq-item">
+                    <summary>What should I bring to the conference?</summary>
+                    <p>
+                        We recommend bringing your event ticket, a valid photo ID, a laptop for workshops, a notebook, a
+                        charger, and business cards if you plan to network with other attendees.
+                    </p>
+                </details>
+
+            </div>
         </div>
-    </div>
-</section>
-      <!-- FAQ section endss here -->
+    </section>
+    <!-- FAQ section endss here -->
+
+    <!-- Footer section starts here -->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+        </div>
+        <hr>
+        <p>© 2026 Developer conference. All rights reserved.</p>
+
+    </footer>
+    <!-- Footer section ends here -->
 </body>
 
 </html>
